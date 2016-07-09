@@ -6,6 +6,7 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
     selector: "app",
     template: `<div class="ui container">
         <div class="center">
+            <img src='https://angular.io/resources/images/logos/standard/shield-large.png'>
         </div>
         <router-outlet></router-outlet>
         <nav class="ui menu inverted teal">
