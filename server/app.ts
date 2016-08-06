@@ -10,8 +10,8 @@ import { protectedRouter } from "./routes/protected";
 const app: express.Application = express();
 app.disable("x-powered-by");
 
-app.use(favicon(join(__dirname, "../public", "favicon.ico")));
-app.use(express.static(join(__dirname, '../public')));
+app.use(favicon(join(__dirname, "../client", "favicon.ico")));
+app.use(express.static(join(__dirname, '../client')));
 
 app.use(json());
 app.use(urlencoded({ extended: true }));
