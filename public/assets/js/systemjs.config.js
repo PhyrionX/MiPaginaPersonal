@@ -19,7 +19,8 @@ var isPublic = typeof window != "undefined";
         'app':                        { main: 'main.js',  defaultExtension: 'js' },
         'rxjs':                       { defaultExtension: 'js' },
         'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
-        'ng-semantic':                { main: 'ng-semantic', defaultExtension: 'js' }
+        'ng-semantic':                { main: 'ng-semantic', defaultExtension: 'js' },
+        'ng2-bootstrap':                { main: 'ng2-bootstrap', defaultExtension: 'js' }
     };
     var ngPackageNames = [
         'common',
